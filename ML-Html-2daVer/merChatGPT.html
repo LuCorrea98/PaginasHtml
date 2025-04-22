@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Mercado Libre ChatGPT</title>
+  <style>
+        /* --- ESTILOS GENERALES --- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, white, #fff6cc); /* gradiente blanco a amarillo suave */
+      color: #333;
+    }
+
+    /* --- ENCABEZADO Y BARRA DE BÚSQUEDA --- */
+    table {
+      border-collapse: collapse;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    input[type="text"] {
+      width: 400px;
+      height: 38px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      background-color: #ffcc00;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #f1b800;
+    }
+
+    /* --- MENÚ DE NAVEGACIÓN --- */
+    td {
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    td img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+
+    /* --- TÍTULOS --- */
+    h2 {
+      text-align: center;
+      background-color: #fff9d6;
+      padding: 15px;
+      border-top: 2px solid #ffcc00;
+      border-bottom: 2px solid #ffcc00;
+      margin-top: 0;
+    }
+
+    /* --- PRODUCTOS DESTACADOS --- */
+    .productos td {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .productos td:hover {
+      transform: scale(1.05);
+    }
+
+    /* --- PIE DE PÁGINA --- */
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 40px 0 10px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      padding-bottom: 30px;
+    }
+
+    /* --- RESPONSIVE (opcional) --- */
+    @media screen and (max-width: 768px) {
+      form {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      input[type="text"] {
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado con logo y barra de búsqueda -->
+  <table width="100%" border="0">
+    <tr>
+      <td><img src="logoML.jpg" alt="Logo" height="50"></td>
+      <td>
+        <form>
+          <input type="text" placeholder="Buscar productos, marcas y más..." size="50">
+          <input type="submit" value="Buscar">
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Menú de navegación -->
+  <table width="100%" border="0">
+    <tr>
+      <td align="center"><img src="2categor.jpg" alt="Categorías"><br>Categorías</td>
+      <td align="center"><img src="2comProt.jpg" alt="Compra Protegida"><br>Compra Protegida</td>
+      <td align="center"><img src="2menos.jpg" alt="Descuentos"><br>Descuentos</td>
+      <td align="center"><img src="2prod tendencia.jpg" alt="Tendencias"><br>Tendencias</td>
+      <td align="center"><img src="2tiendaO.jpg" alt="Tiendas"><br>Tiendas Oficiales</td>
+      <td align="center"><img src="2ayuda.jpg" alt="Ayuda"><br>Ayuda</td>
+    </tr>
+  </table>
+
+  <!-- Banner principal -->
+  <p><img src="merlibBanner.jpg" alt="Banner" width="100%"></p>
+
+  <!-- Sección de productos -->
+  <h2>Productos Destacados</h2>
+  <table class="productos" border="0" cellpadding="10">
+    <tr>
+      <td align="center">
+        <img src="1iphone16Pro.jpg" alt="iPhone 16 Pro" width="150"><br>
+        iPhone 16 Pro
+      </td>
+      <td align="center">
+        <img src="1nothing.jpg" alt="Nothing Phone" width="150"><br>
+        Nothing Phone
+      </td>
+      <td align="center">
+        <img src="1redmiNote14.jpg" alt="Redmi Note 14" width="150"><br>
+        Redmi Note 14
+      </td>
+      <td align="center">
+        <img src="1samsungGalS24.jpg" alt="Samsung Galaxy S24" width="150"><br>
+        Samsung Galaxy S24
+      </td>
+    </tr>
+  </table>
+
+  <!-- Pie de página -->
+  <hr>
+  <table width="100%">
+    <tr>
+      <td align="center">
+        <img src="subscribete.jpg" alt="Suscríbete"><br>
+        <p>&copy; 2025 MerLibreMIO</p>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
